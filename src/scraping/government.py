@@ -8,24 +8,21 @@ import time
 import httpx
 from bs4 import BeautifulSoup
 
-from src.utils import confidence
-from src.parsing import capex as capex_ext
-from src.parsing import capacity as capacity_ext
-from src.parsing import location as location_ext
 from src.models.investment_record import InvestmentRecord
+from src.parsing.record_parser import RecordParser
 
 logger = logging.getLogger(__name__)
+_parser = RecordParser()
 
 
 def scrape(config: dict) -> list[InvestmentRecord]:
     records = []
-    source_quality: float = config.get("source_quality", 0.9)
     delay = 1.0 / config.get("rate_limit_rps", 0.5)
 
     for seed_url in config["seed_urls"]:
         time.sleep(delay)
         try:
-            page_records = _scrape_register_page(seed_url, source_quality)
+            page_records = _scrape_register_page(seed_url, config)
             records.extend(page_records)
         except Exception:
             logger.exception("Failed to scrape government register: %s", seed_url)
@@ -33,7 +30,7 @@ def scrape(config: dict) -> list[InvestmentRecord]:
     return records
 
 
-def _scrape_register_page(url: str, source_quality: float) -> list[InvestmentRecord]:
+def _scrape_register_page(url: str, config: dict) -> list[InvestmentRecord]:
     response = httpx.get(url, follow_redirects=True, timeout=15)
     response.raise_for_status()
     soup = BeautifulSoup(response.text, "html.parser")
@@ -47,30 +44,9 @@ def _scrape_register_page(url: str, source_quality: float) -> list[InvestmentRec
             continue
 
         text = " ".join(cells)
-        capex_res = capex_ext.extract(text)
-        cap_res = capacity_ext.extract(text)
-        loc_res = location_ext.extract(text)
-
-        if not loc_res.value:
-            continue
-
-        import re
-        year_matches = re.findall(r"\b(20[2-9]\d)\b", text)
-        if not year_matches:
-            continue
-
-        record = InvestmentRecord(
-            company=cells[0],
-            location=loc_res.value,
-            country=loc_res.country,
-            year=int(year_matches[0]),
-            source_url=url,
-            confidence_score=0.0,
-            capex=capex_res.value,
-            capacity=cap_res.value,
-        )
-        extraction_certainty = (capex_res.certainty + cap_res.certainty + loc_res.certainty) / 3
-        record.confidence_score = confidence.score(record, source_quality, extraction_certainty)
-        records.append(record)
+        page = _parser.parse(text, url, config)
+        record = page.to_investment_record()
+        if record:
+            records.append(record)
 
     return records

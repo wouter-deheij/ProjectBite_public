@@ -3,6 +3,7 @@
 import pytest
 
 from src.parsing import capex, capacity, location
+from src.parsing.record_parser import RecordParser
 
 
 class TestCapex:
@@ -75,3 +76,44 @@ class TestLocation:
         assert result.value is None
         assert result.certainty == 0.0
         assert result.method == "not_found"
+
+
+class TestRecordParser:
+    def setup_method(self):
+        self.parser = RecordParser()
+        self.cfg = {"name": "test", "source_quality": 0.8}
+
+    def test_full_extraction(self):
+        text = (
+            "Shell investeert € 1,2 miljard in nieuwe fabriek in Rotterdam. "
+            "De capaciteit bedraagt 200 MW. Oplevering in 2026."
+        )
+        page = self.parser.parse(text, "https://example.com/pr1", self.cfg)
+        assert page.company.value == "Shell"
+        assert page.capex.value == pytest.approx(1200.0)
+        assert page.location.value == "Rotterdam"
+        assert page.location.country == "NL"
+        assert page.year.value == 2026
+        assert page.confidence_score > 0.0
+
+    def test_to_investment_record_returns_none_when_missing_required(self):
+        text = "No location, no company, no year here."
+        page = self.parser.parse(text, "https://example.com/empty", self.cfg)
+        assert page.to_investment_record() is None
+
+    def test_to_investment_record_success(self):
+        text = "Shell investeert € 500 miljoen in Amsterdam. Oplevering 2025."
+        page = self.parser.parse(text, "https://example.com/pr2", self.cfg)
+        record = page.to_investment_record()
+        assert record is not None
+        assert record.company == "Shell"
+        assert record.location == "Amsterdam"
+        assert record.year == 2025
+
+    def test_to_dict_contains_all_fields(self):
+        text = "Shell bouwt fabriek in Rotterdam in 2027."
+        page = self.parser.parse(text, "https://example.com/pr3", self.cfg)
+        d = page.to_dict()
+        assert "source_url" in d
+        assert "confidence_score" in d
+        assert set(d["fields"].keys()) == {"company", "capex", "capacity", "location", "year"}
