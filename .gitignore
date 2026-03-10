@@ -5,8 +5,9 @@ __pycache__/
 dist/
 build/
 
-# Raw scraped data — do not commit
+# Scraped data — do not commit
 data/raw/
+data/interim/
 
 # Processed CSVs — commit intentionally if desired
 # data/processed/

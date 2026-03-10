@@ -11,7 +11,7 @@ import httpx
 import trafilatura
 from bs4 import BeautifulSoup
 
-from src.models.investment_record import InvestmentRecord
+from src.models.parsed_page import ParsedPage
 from src.parsing.record_parser import RecordParser
 
 logger = logging.getLogger(__name__)
@@ -22,8 +22,8 @@ _INVESTMENT_KEYWORDS = re.compile(
 )
 
 
-def scrape(config: dict) -> list[InvestmentRecord]:
-    records = []
+def scrape(config: dict) -> list[ParsedPage]:
+    pages = []
     delay = 1.0 / config.get("rate_limit_rps", 1.0)
 
     for seed_url in config["seed_urls"]:
@@ -36,13 +36,13 @@ def scrape(config: dict) -> list[InvestmentRecord]:
         for url in article_urls:
             time.sleep(delay)
             try:
-                record = _parse_article(url, config)
-                if record:
-                    records.append(record)
+                page = _parse_article(url, config)
+                if page:
+                    pages.append(page)
             except Exception:
                 logger.exception("Failed to parse news article: %s", url)
 
-    return records
+    return pages
 
 
 def _discover_articles(seed_url: str) -> list[str]:
@@ -57,7 +57,7 @@ def _discover_articles(seed_url: str) -> list[str]:
     return list(dict.fromkeys(links))
 
 
-def _parse_article(url: str, config: dict) -> InvestmentRecord | None:
+def _parse_article(url: str, config: dict) -> ParsedPage | None:
     response = httpx.get(url, follow_redirects=True, timeout=15)
     response.raise_for_status()
 
@@ -66,5 +66,4 @@ def _parse_article(url: str, config: dict) -> InvestmentRecord | None:
     if not text or not _INVESTMENT_KEYWORDS.search(text):
         return None
 
-    page = _parser.parse(text, url, config)
-    return page.to_investment_record()
+    return _parser.parse(text, url, config)
