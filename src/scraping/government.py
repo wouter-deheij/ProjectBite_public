@@ -8,11 +8,11 @@ import time
 import httpx
 from bs4 import BeautifulSoup
 
-from scraper import confidence
-from scraper.extractors import capex as capex_ext
-from scraper.extractors import capacity as capacity_ext
-from scraper.extractors import location as location_ext
-from scraper.models import InvestmentRecord
+from src.utils import confidence
+from src.parsing import capex as capex_ext
+from src.parsing import capacity as capacity_ext
+from src.parsing import location as location_ext
+from src.models.investment_record import InvestmentRecord
 
 logger = logging.getLogger(__name__)
 

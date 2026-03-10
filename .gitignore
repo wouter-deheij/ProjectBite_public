@@ -8,8 +8,8 @@ build/
 # Raw scraped data — do not commit
 data/raw/
 
-# Output CSVs — commit intentionally if desired
-# data/output/
+# Processed CSVs — commit intentionally if desired
+# data/processed/
 
 # Playwright browser binaries
 playwright/

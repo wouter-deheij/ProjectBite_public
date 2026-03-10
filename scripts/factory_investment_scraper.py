@@ -2,9 +2,9 @@
 Main pipeline: fetch → cache → extract → score → deduplicate → write CSV.
 
 Usage:
-    python -m scraper.pipeline                    # all sources
-    python -m scraper.pipeline --source press_releases
-    python -m scraper.pipeline --output data/output/investments.csv
+    python scripts/factory_investment_scraper.py
+    python scripts/factory_investment_scraper.py --source press_releases
+    python scripts/factory_investment_scraper.py --output data/processed/investments.csv
 """
 
 from __future__ import annotations
@@ -13,16 +13,19 @@ import argparse
 import csv
 import importlib
 import logging
+import sys
 from pathlib import Path
 
 import yaml
 
-from scraper.models import InvestmentRecord
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
+from src.models.investment_record import InvestmentRecord
 
 logger = logging.getLogger(__name__)
 
 CONFIG_PATH = Path(__file__).parent.parent / "config" / "sources.yaml"
-DEFAULT_OUTPUT = Path(__file__).parent.parent / "data" / "output" / "investments.csv"
+DEFAULT_OUTPUT = Path(__file__).parent.parent / "data" / "processed" / "investments.csv"
 
 
 def load_config(path: Path = CONFIG_PATH) -> dict:
@@ -43,7 +46,7 @@ def run(source_filter: str | None = None, output: Path = DEFAULT_OUTPUT) -> None
 
         logger.info("Scraping source: %s (%s)", name, source_type)
         try:
-            module = importlib.import_module(f"scraper.sources.{source_type}")
+            module = importlib.import_module(f"src.scraping.{source_type}")
             new_records = module.scrape(source_cfg)
             logger.info("  → %d records from %s", len(new_records), name)
             records.extend(new_records)

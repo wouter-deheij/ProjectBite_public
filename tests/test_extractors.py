@@ -2,7 +2,7 @@
 
 import pytest
 
-from scraper.extractors import capex, capacity, location
+from src.parsing import capex, capacity, location
 
 
 class TestCapex:
