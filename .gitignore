@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+dist/
+build/
+
+# Raw scraped data — do not commit
+data/raw/
+
+# Output CSVs — commit intentionally if desired
+# data/output/
+
+# Playwright browser binaries
+playwright/

@@ -1,0 +1,21 @@
+sources:
+  - name: example_press_releases
+    type: press_releases
+    seed_urls:
+      - https://example-company.com/investors/press-releases
+    rate_limit_rps: 0.5
+    source_quality: 1.0   # primary source → highest quality
+
+  - name: example_government
+    type: government
+    seed_urls:
+      - https://example-government-register.nl/investments
+    rate_limit_rps: 0.5
+    source_quality: 0.9
+
+  - name: example_news
+    type: news
+    seed_urls:
+      - https://example-news-site.com/industry/manufacturing
+    rate_limit_rps: 1.0
+    source_quality: 0.7   # secondary source → lower quality
