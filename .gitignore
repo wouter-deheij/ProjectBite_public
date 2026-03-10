@@ -13,3 +13,6 @@ data/raw/
 
 # Playwright browser binaries
 playwright/
+
+# Local Claude Code tooling
+.claude/
