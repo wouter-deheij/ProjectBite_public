@@ -17,8 +17,11 @@ class InvestmentRecord:
     confidence_score: float  # 0.0–1.0
 
     # Optional fields
-    capex: float | None = None       # Always in EUR millions
-    capacity: str | None = None      # Raw string, e.g. "500.000 ton/jaar"
+    capex: float | None = None           # Original reported amount, in millions
+    currency: str | None = None          # ISO 4217 currency code, e.g. "USD", "EUR"
+    capex_2025_eur: float | None = None  # Inflation-adjusted to 2025, in EUR millions
+    capacity: float | None = None        # Production capacity (unit depends on source)
+    facility_size_m2: float | None = None  # Facility floor area in m²
 
     # Fields used for deduplication, not written to CSV
     DEDUP_KEYS: ClassVar[tuple[str, ...]] = ("company", "location", "year")
@@ -30,7 +33,10 @@ class InvestmentRecord:
         "country",
         "year",
         "capex",
+        "currency",
+        "capex_2025_eur",
         "capacity",
+        "facility_size_m2",
         "source_url",
         "confidence_score",
     )
@@ -44,9 +50,9 @@ class InvestmentRecord:
 
     @property
     def filled_optional_count(self) -> int:
-        optional = {"capex", "capacity"}
+        optional = {"capex", "capacity", "facility_size_m2", "capex_2025_eur"}
         return sum(1 for f in optional if getattr(self, f) is not None)
 
     @property
     def optional_count(self) -> int:
-        return 2  # capex, capacity
+        return 4  # capex, capacity, facility_size_m2, capex_2025_eur
