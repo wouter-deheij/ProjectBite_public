@@ -1,21 +1,22 @@
 """
-One-off parser for the Food Engineering 2021 Plant Construction Survey.
+Parser for Food Engineering Plant Construction Survey (multi-year).
 
-URL: https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021
+Available years: 2018–2022
+URL pattern: https://www.foodengineeringmag.com/food-plant-construction-survey-list-{year}
 
-The page contains a single HTML table with columns:
+Table columns per page:
   Company | City | State | Product | Type | Sq-Ft (x1000) | Cost ($M) | Firm | Date
 
 Output columns (via InvestmentRecord):
   company, location, country, year,
   capex (USD M), currency, capex_2025_eur (EUR M, CPI-adjusted),
-  capacity, facility_size_m2,
-  source_url, confidence_score
+  capacity, facility_size_m2, source_url, confidence_score
 
 Usage:
-    python scripts/parse_foodeng_survey.py
-    python scripts/parse_foodeng_survey.py --output data/processed/foodeng_2021.csv
+    python scripts/parse_foodeng_survey.py                        # all years
+    python scripts/parse_foodeng_survey.py --years 2020 2021 2022
     python scripts/parse_foodeng_survey.py --min-cost 50
+    python scripts/parse_foodeng_survey.py --output data/processed/foodeng_all.csv
 """
 
 from __future__ import annotations
@@ -25,6 +26,7 @@ import csv
 import logging
 import re
 import sys
+import time
 from pathlib import Path
 
 import httpx
@@ -38,8 +40,9 @@ from src.utils.inflation import is_plausible_capex, sqft_to_m2, to_2025_eur
 
 logger = logging.getLogger(__name__)
 
-URL = "https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021"
-DEFAULT_OUTPUT = Path(__file__).parent.parent / "data" / "processed" / "foodeng_2021.csv"
+URL_TEMPLATE = "https://www.foodengineeringmag.com/food-plant-construction-survey-list-{year}"
+AVAILABLE_YEARS = [2018, 2019, 2020, 2021, 2022]
+DEFAULT_OUTPUT = Path(__file__).parent.parent / "data" / "processed" / "foodeng_all.csv"
 SOURCE_CURRENCY = "USD"
 
 _STATE = {
@@ -88,15 +91,16 @@ def _country(state: str) -> str:
     return "CA" if state in _CA_PROVINCES else "US"
 
 
-def fetch_and_parse(min_cost: float = 0.0) -> list[InvestmentRecord]:
-    logger.info("Fetching %s", URL)
-    response = httpx.get(URL, follow_redirects=True, timeout=30)
+def fetch_and_parse_year(survey_year: int, min_cost: float = 0.0) -> list[InvestmentRecord]:
+    url = URL_TEMPLATE.format(year=survey_year)
+    logger.info("Fetching survey year %d: %s", survey_year, url)
+    response = httpx.get(url, follow_redirects=True, timeout=30)
     response.raise_for_status()
     soup = BeautifulSoup(response.text, "html.parser")
 
     table = soup.select_one("table")
     if not table:
-        raise RuntimeError("No table found on page")
+        raise RuntimeError(f"No table found on page for year {survey_year}")
 
     records = []
     skipped: dict[str, int] = {"short_row": 0, "no_year": 0, "implausible_capex": 0, "below_min_cost": 0}
@@ -142,7 +146,7 @@ def fetch_and_parse(min_cost: float = 0.0) -> list[InvestmentRecord]:
             location=location,
             country=country,
             year=year,
-            source_url=URL,
+            source_url=url,
             confidence_score=0.0,
             capex=cost,
             currency=SOURCE_CURRENCY if cost is not None else None,
@@ -154,11 +158,43 @@ def fetch_and_parse(min_cost: float = 0.0) -> list[InvestmentRecord]:
         records.append(record)
 
     logger.info(
-        "Parsed %d records | skipped: %s",
+        "  Year %d → %d records | skipped: %s",
+        survey_year,
         len(records),
-        ", ".join(f"{k}={v}" for k, v in skipped.items() if v),
+        ", ".join(f"{k}={v}" for k, v in skipped.items() if v) or "none",
     )
     return records
+
+
+def fetch_all_years(
+    years: list[int] = AVAILABLE_YEARS,
+    min_cost: float = 0.0,
+) -> list[InvestmentRecord]:
+    """Fetch and deduplicate records across all requested survey years."""
+    all_records: list[InvestmentRecord] = []
+
+    for i, year in enumerate(years):
+        try:
+            records = fetch_and_parse_year(year, min_cost=min_cost)
+            all_records.extend(records)
+        except Exception:
+            logger.exception("Failed to parse survey year %d", year)
+        if i < len(years) - 1:
+            time.sleep(1)  # polite delay between pages
+
+    # Deduplicate: same company + location + investment year → keep highest confidence
+    best: dict[tuple, InvestmentRecord] = {}
+    for r in all_records:
+        key = r.dedup_key
+        if key not in best or r.confidence_score > best[key].confidence_score:
+            best[key] = r
+
+    deduped = sorted(best.values(), key=lambda r: (r.year, r.company))
+    dupes = len(all_records) - len(deduped)
+    if dupes:
+        logger.info("Removed %d duplicate records across survey years", dupes)
+    logger.info("Total: %d unique records from %d survey pages", len(deduped), len(years))
+    return deduped
 
 
 def write_csv(records: list[InvestmentRecord], path: Path) -> None:
@@ -173,7 +209,13 @@ def write_csv(records: list[InvestmentRecord], path: Path) -> None:
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
-    parser = argparse.ArgumentParser(description="Parse Food Engineering 2021 survey.")
+    parser = argparse.ArgumentParser(
+        description="Parse Food Engineering Plant Construction Survey (multi-year)."
+    )
+    parser.add_argument(
+        "--years", type=int, nargs="+", default=AVAILABLE_YEARS,
+        help=f"Survey years to fetch (default: {AVAILABLE_YEARS})",
+    )
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument(
         "--min-cost", type=float, default=0.0,
@@ -181,5 +223,5 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
 
-    records = fetch_and_parse(min_cost=args.min_cost)
+    records = fetch_all_years(years=args.years, min_cost=args.min_cost)
     write_csv(records, args.output)
