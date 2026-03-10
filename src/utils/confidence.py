@@ -9,7 +9,7 @@ Score = weighted combination of:
 
 from __future__ import annotations
 
-from scraper.models import InvestmentRecord
+from src.models.investment_record import InvestmentRecord
 
 # Weight of each component (must sum to 1.0)
 _W_COMPLETENESS = 0.3

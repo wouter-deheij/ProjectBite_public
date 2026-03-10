@@ -1,15 +1,19 @@
 """Extract location and country from free text.
 
-Returns (location_string, country_iso2, certainty).
-Uses pycountry for country resolution; falls back to a small
-hardcoded lookup for common Dutch/English city names.
+Returns a LocationExtractionResult with:
+  value:   city or region string (or None)
+  country: ISO 3166-1 alpha-2 code (or "XX" if unknown)
+Uses a hardcoded lookup for common Dutch/English city names,
+with a regex fallback for explicit country mentions.
 """
 
 from __future__ import annotations
 
 import re
 
-import pycountry
+import pycountry  # noqa: F401  (kept for future country resolution)
+
+from src.models.extraction_result import LocationExtractionResult
 
 # Common city → country mappings as a fast fallback
 _CITY_COUNTRY: dict[str, str] = {
@@ -42,8 +46,8 @@ _COUNTRY_NAME_TO_ISO2: dict[str, str] = {
 }
 
 
-def extract(text: str) -> tuple[str | None, str, float]:
-    """Return (location, country_iso2, certainty)."""
+def extract(text: str) -> LocationExtractionResult:
+    """Return a LocationExtractionResult with value=city and country=ISO2."""
     # 1. Try to find an explicit country mention
     country_iso2 = "XX"
     country_certainty = 0.0
@@ -59,7 +63,13 @@ def extract(text: str) -> tuple[str | None, str, float]:
             if country_iso2 == "XX":
                 country_iso2 = iso2
                 country_certainty = 0.8
-            return city.title(), country_iso2, (1.0 + country_certainty) / 2
+            return LocationExtractionResult(
+                value=city.title(),
+                raw_match=city,
+                certainty=(1.0 + country_certainty) / 2,
+                method="city_lookup",
+                country=country_iso2,
+            )
 
     # 3. Fallback: look for "in <Word>" after investment keywords
     loc_match = re.search(
@@ -67,9 +77,16 @@ def extract(text: str) -> tuple[str | None, str, float]:
         text,
     )
     if loc_match:
-        loc = loc_match.group(1)
         if country_iso2 == "XX":
             country_certainty = 0.3
-        return loc, country_iso2, (0.7 + country_certainty) / 2
+        return LocationExtractionResult(
+            value=loc_match.group(1),
+            raw_match=loc_match.group(0),
+            certainty=(0.7 + country_certainty) / 2,
+            method="facility_keyword",
+            country=country_iso2,
+        )
 
-    return None, country_iso2, 0.0
+    return LocationExtractionResult(
+        value=None, raw_match=None, certainty=0.0, method="not_found", country=country_iso2
+    )

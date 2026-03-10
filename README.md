@@ -18,20 +18,23 @@ Collects publicly announced factory investments from press releases, government 
 ## Setup
 
 ```bash
-pip install -e ".[dev]"
+pip install -r requirements.txt
 ```
 
 ## Run
 
 ```bash
-# All sources
-python -m scraper.pipeline
+# 1. Scrape all sources → data/processed/investments.csv
+python scripts/factory_investment_scraper.py
 
-# Single source type
-python -m scraper.pipeline --source press_releases
+# Scrape only one source type
+python scripts/factory_investment_scraper.py --source press_releases
 
-# Custom output path
-python -m scraper.pipeline --output data/output/2024.csv
+# 2. Clean raw output
+python scripts/clean_factory_data.py
+
+# 3. Export with filters
+python scripts/export_csv.py --country NL --min-year 2022 --min-confidence 0.7
 ```
 
 ## Test
@@ -43,27 +46,31 @@ pytest
 ## Structure
 
 ```
-scraper/
-├── sources/        # One module per source type (press_releases, government, news)
-├── extractors/     # Field extraction: capex, capacity, location
-├── models.py       # InvestmentRecord dataclass
-├── confidence.py   # Confidence scoring
-└── pipeline.py     # Orchestration: fetch → extract → dedupe → CSV
+scripts/
+├── factory_investment_scraper.py   # Scrape → dedupe → CSV
+├── clean_factory_data.py           # Validate and clean output
+└── export_csv.py                   # Filter and export
+
+src/
+├── scraping/     # One module per source type (press_releases, government, news)
+├── parsing/      # Field extraction: capex, capacity, location
+├── models/       # InvestmentRecord dataclass
+└── utils/        # Confidence scoring
 
 config/
-└── sources.yaml    # Seed URLs, rate limits, source quality per source
+└── sources.yaml  # Seed URLs, rate limits, source quality per source
 
 data/
-├── raw/            # Cached HTML (gitignored)
-└── output/         # Generated CSVs
+├── raw/          # Cached HTML (gitignored)
+└── processed/    # Generated CSVs
 
 tests/
 ├── test_extractors.py
-└── fixtures/       # Sample HTML for unit tests
+└── fixtures/     # Sample HTML for unit tests
 ```
 
 ## Adding a new source
 
-1. Add an entry to `config/sources.yaml` with a `type` matching an existing source module (or create a new one in `scraper/sources/`).
+1. Add an entry to `config/sources.yaml` with a `type` matching an existing source module (or create a new one in `src/scraping/`).
 2. Set `source_quality` between 0.0 and 1.0 reflecting how reliable the source is.
-3. Run the pipeline.
+3. Run `python scripts/factory_investment_scraper.py`.

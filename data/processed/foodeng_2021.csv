@@ -1,0 +1,675 @@
+company,location,country,year,capex,currency,capex_2025_eur,capacity,facility_size_m2,source_url,confidence_score
+121 In-Flight Catering,"Brisbane, California",US,2020,15.0,USD,17.28,,4645,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+80 Acres Farm,"Hamilton, Ontario",CA,2019,,,,,2787,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+AAK USA,"Louisville/td>KYEdible oilsExp.210/20, Kentucky",US,2020,2.0,USD,2.3,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Aalco Distributing,"Ft. Wayne, Indiana",US,2020,,,,,9755,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Abbott Nutrition,"Sturgis, Michigan",US,2021,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+AeroFarms,"Danville, Virginia",US,2020,42.0,USD,48.38,,13935,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Ag Science Solutions (dba Shyne Labs),"Franklin, Kentucky",US,2020,9.0,USD,10.37,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Agile Cold Storage,"Cartersville, Georgia",US,2020,30.0,USD,34.56,,13935,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Agile Cold Storage,"Gainesville, Georgia",US,2020,30.0,USD,34.56,,13935,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Agriculture Technology Campus JV,"Hampton, South Carolina",US,2020,,,,,13935,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Agropur,"Jerome, Idaho",US,2020,,,,,1115,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Agropur,"Lake Norden, South Dakota",US,2020,,,,,1115,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Agropur,"Lake Norden, South Dakota",US,2020,,,,,14214,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+AgTech,"Paris, Kentucky",US,2020,,,,,4645,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Ahold Delhaize,"North Kingstown, Rhode Island",US,2021,130.0,USD,143.03,,18581,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Ajinomoto,"Oakland, Mississippi",US,2020,27.0,USD,31.1,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Aldi,"Loxley, Alabama",US,2022,100.0,USD,101.87,,52397,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Alfresco Pasta,"Nashville, Tennessee",US,2021,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Allen Bros.,"Selah, Washington",US,2020,35.0,USD,40.32,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Americold Logistics,"Savannah, Georgia",US,2020,,,,,28986,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Amy's Kitchen,"Goshen, New York",US,2022,150.0,USD,152.81,,36232,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Anheuser-Busch,"Cartersville, Georgia",US,2020,85.0,USD,97.91,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Anheuser-Busch,"Cartersville, Georgia",US,2020,150.0,USD,172.79,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Aquacon,"Federalsburg, Maryland",US,2024,300.0,USD,285.12,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+ArborVita8,"Phenix City, Alabama",US,2020,,,,,6968,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Ark Foods,"Hackensack, New Jersey",US,2020,,,,,1394,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Associated Grocers,"Goodlettsville, Tennessee",US,2020,15.0,USD,17.28,,3716,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Associated Wholesale Grocers,"Hernando, Mississippi",US,2023,300.0,USD,293.53,,85285,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Atlantic Sapphire,"Miami, Florida",US,2020,340.0,USD,391.65,,102193,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Aurora Packing Company,"Aurora, Illinois",US,2023,115.0,USD,112.52,,22390,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Aveka Nutra Processing,"Waukon, Iowa",US,2020,,,,,557,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Aveka Nutra Processing,"Waukon, Iowa",US,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+AWG,"Hernando, Mississippi",US,2022,,,,,84913,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+AWG,"Kenosha, Wisconsin",US,2020,7.0,USD,8.06,,3995,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+B&D Foods,"Americus, Georgia",US,2020,15.0,USD,17.28,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Babynov USA,"Red Boiling Springs, Tennessee",US,2020,45.0,USD,51.84,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Bakkavor USA,"San Antonio, Texas",US,2020,1.0,USD,1.15,,929,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Ball Corporation,"Pittston, Pennsylvania",US,2021,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Ball Metalpack,"Chesnut Hill, Tennessee",US,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Bang Energy,"Lithia Springs, Georgia",US,2021,145.0,USD,159.53,,59830,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Barrett Petfood Innovations,"Little Falls, Minnesota",US,2020,18.0,USD,20.73,,14864,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Barvecue,"Cornelius, North Carolina",US,2021,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Basic American Foods,"Rexburg, Idaho",US,2020,100.0,USD,115.19,,11613,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Batter UP Foods (SatisPie),"Fulton, Georgia",US,2020,34.0,USD,39.17,,9476,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Beam Suntory,"Clermont, Kentucky",US,2021,60.0,USD,66.01,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Bell & Evans,"Fredericksburg, Pennsylvania",US,2021,330.0,USD,363.08,,38276,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Bellavance Beverage,"Londonderry, New Hampshire",US,2021,,,,,13471,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Ben E. Keith,"New Brockton, Alabama",US,2021,100.0,USD,110.02,,39484,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Benestara Brands,"Kings Mountain, North Carolina",US,2020,24.0,USD,27.65,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+BFY Brands,"Middletown, New York",US,2020,44.0,USD,50.68,,650,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Big Dog Industries,"Lovington, New Mexico",US,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Big Mountain Foods,"Vancouver, British Columbia",CA,2021,,,,,6503,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Big Y Foods,"Springfield, Massachusetts",US,2021,35.0,USD,38.51,,21553,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Big Y Foods,"Springfield, Massachusetts",US,2020,40.0,USD,46.08,,39484,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Biospringer North America,"Cedar Rapids, Iowa",US,2020,29.0,USD,33.41,,1858,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Blackline Cold Storage,"Houston, Texas",US,2022,50.0,USD,50.94,,27685,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Blount Fine Foods,"Fall River, Massachusetts",US,2020,2.0,USD,2.3,,465,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Blount Fine Foods,"Portland, Oregon",US,2020,25.0,USD,28.8,,7432,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Blue Buffalo,"Richmond, Indiana",US,2021,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Blue Diamond Growers,"Modesto, California",US,2020,,,,,5110,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Blue Diamond Growers,"Sacramento, California",US,2020,11.0,USD,12.67,,743,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Blue Diamond Growers,"Salida, California",US,2020,5.0,USD,5.76,,929,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Blue Diamond Growers,"Turlock, California",US,2020,24.0,USD,27.65,,6039,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Blue Ribbon Extraction,"South Boston, Virginia",US,2020,3.0,USD,3.46,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Bluegrass Distillers,"Lexington, Kentucky",US,2020,3.0,USD,3.46,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+BlueNalu,"San Diego, California",US,2020,38.0,USD,43.77,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Blues City Brewery,"Memphis, Tennessee",US,2020,49.0,USD,56.44,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+BlueScope Properties Group - Coca-Cola,"Apopka, Florida",US,2020,,,,,26942,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+BlueScope Properties Group - Coca-Cola,"Apopka, Florida",US,2020,,,,,30844,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Boston Beer,"Breinigsville, Pennsylvania",US,2020,1.0,USD,1.15,,2787,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Boston Beer,"Breinigsville, Pennsylvania",US,2021,3.0,USD,3.3,,2787,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Boston Beer,"Cincinnati, Ohio",US,2021,85.0,USD,93.52,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Bowery Farming,"Bethlehem, Pennsylvania",US,2021,30.0,USD,33.01,,13935,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Bowery Farming,"Nottingham, Maryland",US,2020,20.0,USD,23.04,,9290,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Brakebush,"Mocksville, North Carolina",US,2020,60.0,USD,69.12,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+BranD Foods,"Sumter, Georgia",US,2020,15.0,USD,17.28,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+BRD Extraction,"South Boston, Virginia",US,2020,3.0,USD,3.46,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Breakthru Beverage Group,"Middletown, Delaware",US,2021,,,,,26199,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Bridor,"Boucherville, Quebec",CA,2020,170.0,USD,195.83,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Bridor,"Vineland, New Jersey",US,2020,30.0,USD,34.56,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+BrightFarms,"Etowah, North Carolina",US,2020,21.0,USD,24.19,,26013,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+BrightFarms,"Rochelle, Illinois",US,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Brough Brothers Distillery,"Louisville, Kentucky",US,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Buffalo Rock Company,"Huntsville, Alabama",US,2021,20.0,USD,22.0,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Buffalo Trace Distillery,"Frankfort, Kentucky",US,2020,9.0,USD,10.37,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Buffalo Trace Distillery,"Frankfort, Kentucky",US,2020,34.0,USD,39.17,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Burke Corp,"Nevada, Iowa",US,2020,,,,,18488,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Byrne Dairy,"DeWitt, New York",US,2020,29.0,USD,33.41,,2044,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Cajun Traditions Food Processors,"Church Point, Louisiana",US,2020,3.0,USD,3.46,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+"Calico Cottage, Inc.","Amityville, New York",US,2021,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+"California Dairies, Inc.","Visalia, California",US,2020,,,,,2323,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Campbell Soup,"Willard, Ohio",US,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Campbell's Snacks,"Hanover, Pennsylvania",US,2021,8.0,USD,8.8,,1858,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Canada Royal Milk,"Kingston, Ontario",CA,2020,,,,,25270,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Canidae,"Pflugerville, Texas",US,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Canopy Growth,"Kirkwood, New York",US,2020,100.0,USD,115.19,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+CANPACK Group,"Olyphant, Pennsylvania",US,2020,365.0,USD,420.45,,84356,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Cargill,"Dodge City, Kansas",US,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Cargill,"Savage, Minnesota",US,2020,6.0,USD,6.91,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Cargill,"Sidney, Ohio",US,2020,225.0,USD,259.18,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Cargill (Diamond V),"Cedar Rapids, Iowa",US,2020,29.0,USD,33.41,,9290,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Cargill/Puris,"Dawson, Minnesota",US,2020,75.0,USD,86.39,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Carlson Distributing,"Salt Lake City, Utah",US,2020,,,,,17466,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Carolina Botanicals,"Tabor City, North Carolina",US,2020,4.0,USD,4.61,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Carolina Premium Beverage,"Charlotte, North Carolina",US,2021,,,,,21182,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Case Farms Chicken,"Winesburg, Ohio",US,2020,,,,,2415,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Case Farms Chicken,"Winesburg, Ohio",US,2020,,,,,14307,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Castellini,"Wilder, Kentucky",US,2020,9.0,USD,10.37,,2323,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Centro Sperimentale del Latte,"Franksville, Wisconsin",US,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Cereal Ingredients,"St. Josephs, Missouri",US,2022,25.0,USD,25.47,,9290,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Cérélia,"Whitehall, Ohio",US,2021,29.0,USD,31.91,,13935,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Chairmans Foods,"Columbus, Georgia",US,2020,13.0,USD,14.98,,6968,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Champion Petfoods,"Acheson, Alberta",CA,2020,,,,,39577,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Chewy,"Archbald, Pennsylvania",US,2020,50.0,USD,57.6,,74322,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Chic-fil-A,"Mebane, North Carolina",US,2021,52.0,USD,57.21,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Chr. Hansen,"West Allis, Wisconsin",US,2020,,,,,1858,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+CHS Inc.,"Fairmont, Minnesota",US,2021,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Clemens Food Group.,"Hatfield, Pennsylvania",US,2022,145.0,USD,147.71,,28614,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Clermont Distillery,"Shepherdsville, Kentucky",US,2020,13.0,USD,14.98,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Clif Bar,"Indianapolis, Indiana",US,2020,6.0,USD,6.91,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Cloverdale Farms Bacon Plant Expansion,"Mandan, North Dakota",US,2020,2.0,USD,2.3,,743,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Coca Cola Bottling United,"Union City (Atlanta), Georgia",US,2020,86.0,USD,99.07,,42364,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Coca-Cola Bottling Company Consolidated,"West Memphis, Arkansas",US,2020,33.0,USD,38.01,,18581,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Coca-Cola Canada Bottling Ltd.,"Brampton, Ontario",CA,2020,13.0,USD,14.98,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Coca-Cola Canada Bottling Ltd.,"Lachine, Quebec",CA,2020,6.0,USD,6.91,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Coca-Cola Canada Bottling Ltd.,"Weston, Ontario",CA,2020,17.0,USD,19.58,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Coca-Cola Company,"Houston, Texas",US,2020,110.0,USD,126.71,,91045,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Coca-Cola Company,"Peterborough, Ontario",CA,2020,85.0,USD,97.91,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Coca-Cola North America,"Auburndale, Florida",US,2021,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Coffee Café Bakery,"Atlanta, Georgia",US,2020,10.0,USD,11.52,,2880,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+CoffeeTech Industries,"Seguin, Texas",US,2020,56.0,USD,64.51,,10405,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Columbia River Technologies,"Boardman, Oregon",US,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Cometeer,"Gloucester, Massachusetts",US,2021,5.0,USD,5.5,,2323,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Common Collabs,"Knoix, Indiana",US,2021,22.0,USD,24.21,,5574,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+ConAgra Brands,"Archbold, Ohio",US,2021,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+ConAgra Brands,"Darien, Wisconsin",US,2021,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+ConAgra Brands,"Fort Madison, Iowa",US,2020,32.0,USD,36.86,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+ConAgra Brands,"Indianapolis, Indiana",US,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+ConAgra Brands,"Kent, Washington",US,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+ConAgra Brands,"Kent, Washington",US,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+ConAgra Brands,"Louisville, Kentucky",US,2021,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+ConAgra Brands,"Louisville, Kentucky",US,2021,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+ConAgra Brands,"Louisville, Kentucky",US,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+ConAgra Brands,"Russellville, Arkansas",US,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+ConAgra Brands,"Russellville, Arkansas",US,2021,2.0,USD,2.2,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+ConAgra Brands,"Russellville, Arkansas",US,2021,2.0,USD,2.2,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+ConAgra Brands,"Russellville, Arkansas",US,2021,1.0,USD,1.1,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+ConAgra Brands,"Russellville, Arkansas",US,2021,2.0,USD,2.2,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+ConAgra Brands,"Streator, Illinois",US,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+ConAgra Brands,"Sylvester, Georgia",US,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+ConAgra Brands,"Troy, Ohio",US,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+ConAgra Brands,"Troy, Ohio",US,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+ConAgra Brands,"Troy, Ohio",US,2020,,,,,6225,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+ConAgra Brands (Pinnacle Foods),"Jackson, Tennessee",US,2020,106.0,USD,122.1,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Constellation Brands,"Mexicali, MX",US,2021,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Constellation Brands,"Nava, Coahula, MX",US,2022,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Constellation Brands,"Obregon, Sonora, MX",US,2023,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Continental Mills,"Effingham, Illinois",US,2021,,,,,16258,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Corfini Gourmet,"Seattle, Washington",US,2020,,,,,15794,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Cornerstone PB Holdings/Processing,"Pine Bluff, Arkansas",US,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Cosmos Corporation,"O'Fallon, Missouri",US,2020,,,,,17652,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+CP Kelco,"Okmulgee, Oklahoma",US,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Creekstone Farms,"Arkansas City, Kansas",US,2020,,,,,3716,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Crown Holdings,"Bowling Green, Kentucky",US,2021,148.0,USD,162.83,,30379,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Cuisine Solutions,"San Antonio, Texas",US,2020,200.0,USD,230.38,,29264,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Curation Foods,"Bowling Green, Ohio",US,2021,8.0,USD,8.8,,5574,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Daisy Brand,"Garland, Texas",US,2022,4.0,USD,4.07,,279,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Daisy Brand,"Wooster, Ohio",US,2021,5.0,USD,5.5,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Daisy Brand,"Wooster, Ohio",US,2020,5.0,USD,5.76,,3066,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Daniele Foods,"Pascoag, Rhode Island",US,2020,1.0,USD,1.15,,465,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Dannon,"City of Industry, California",US,2020,3.0,USD,3.46,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Dannon,"Minster, Ohio",US,2021,1.0,USD,1.1,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Dannon,"West Jordan, Utah",US,2021,6.0,USD,6.6,,1022,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Dannon,"West Jordan, Utah",US,2021,3.0,USD,3.3,,186,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Dannon,"West Jordan, Utah",US,2021,1.0,USD,1.1,,186,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Dannon,"West Jordan, Utah",US,2021,3.0,USD,3.3,,93,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Dannon,"West Jordan, Utah",US,2021,7.0,USD,7.7,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Dannon,"West Jordan, Utah",US,2021,4.0,USD,4.4,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Dannon,"West Jordan, Utah",US,2022,3.0,USD,3.06,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Dannon,"West Jordan, Utah",US,2021,3.0,USD,3.3,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Dannon,"West Jordan, Utah",US,2020,2.0,USD,2.3,,93,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Dannon,"West Jordan, Utah",US,2020,1.0,USD,1.15,,93,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Dannon,"West Jordan, Utah",US,2020,1.0,USD,1.15,,93,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Darifair Foods,"Jacksonville, Florida",US,2020,46.0,USD,52.99,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Darigold Dairy,"Boise, Idaho",US,2021,16.0,USD,17.6,,2415,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Daybreak Foods,"Lake Mills, Wisconsin",US,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Dean Foods,"Dallas, Texas",US,2021,8.0,USD,8.8,,372,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+DHL,"Alburtis, Pennsylvania",US,2020,,,,,1394,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Diageo,"Lebanon, Kentucky",US,2021,107.0,USD,117.73,,6689,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Dippin' Dots,"Paducah, Kentucky",US,2020,3.0,USD,3.46,,557,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Dnata Flight Catering,"Irving, Texas",US,2020,2.0,USD,2.3,,1858,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+"Dold Foods, LLC","Wichita, Kansas",US,2020,,,,,15329,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Dollar General,"Ardmore, Oklahoma",US,2021,,,,,14864,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Dollar General,"Blair, Nebraska",US,2022,71.0,USD,72.33,,80361,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Dollar General,"Bowling Green, Kentucky",US,2021,,,,,14864,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Dollar General,"Pottsville, Pennsylvania",US,2020,,,,,13750,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Dollar General,"Rosenberg, Texas",US,2020,130.0,USD,149.75,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Dollar General,"Sacramento, California",US,2020,,,,,18581,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Domino's,"Katy, Texas",US,2020,,,,,5481,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Domino's,"West Columbia, South Carolina",US,2020,,,,,6225,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Donaghy Sales,"Stockton, California",US,2021,,,,,26477,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Dorada Foods,"Ponca City, Oklahoma",US,2020,,,,,1858,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Dorada Foods,"Ponca City, Oklahoma",US,2021,,,,,1394,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Dot Foods,"Bear, Delaware",US,2020,,,,,17466,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Dot Foods,"Bullhead City, Arizona",US,2020,,,,,6503,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Dot's Pretzels,"Edgerton, Kansas",US,2020,15.0,USD,17.28,,17280,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Dreyer's Grand Ice Cream,"Bakersfield, California",US,2021,6.0,USD,6.6,,1858,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+DrinkPak,"Newhall, California",US,2021,,,,,15979,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Duda Farm Fresh Foods,"Oxnard, California",US,2020,5.0,USD,5.76,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Eby-Brown,"Knightdale, North Carolina",US,2020,,,,,2694,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Edwards Spirit Company,"Fayette, Kentucky",US,2020,5.0,USD,5.76,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Elevation Foods,"Knoxville, Tennessee",US,2021,5.0,USD,5.5,,1394,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Empire Bakery,"Rocky Mount, Virginia",US,2020,,,,,12077,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Empire Bakery,"Rocky Mount, Virginia",US,2020,,,,,3995,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Empire Brands,"Dunkirk, New York",US,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+EnviroFlight LLC,"Marysville, Kentucky",US,2020,20.0,USD,23.04,,16072,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+ePac Flexible Packing,"Sacramento, Kentucky",US,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Factory LLC,"Bethlehem (Hanover Twp), Pennsylvania",US,2020,,,,,13935,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+FAGE USA,"Johnstown, New York",US,2020,4.0,USD,4.61,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+"Family Brands, LLC","Lenoir City, Tennessee",US,2020,,,,,6039,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Farmer Jon's Popcorn,"Lakeland, Florida",US,2020,,,,,650,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Farmer's Select,"El Paso, Texas",US,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Farmina,"Reidsville, North Carolina",US,2020,28.0,USD,32.25,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+FB Packing,"Peabody, Massachusetts",US,2021,10.0,USD,11.0,,9755,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Ferrara Candy Company,"Augusta, Georgia",US,2020,3.0,USD,3.46,,31680,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Ferraro Foods,"Aberdeen, Maryland",US,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Ferrero USA,"Bloomington, Illinois",US,2021,75.0,USD,82.52,,6503,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Ferrero USA,"McDonnough, Georgia",US,2020,,,,,67633,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Field Fresh Foods (FFF Farms),"Nyssa, Oregon",US,2020,,,,,1022,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Field Fresh Foods (FFF Farms),"Nyssa, Oregon",US,2020,,,,,5574,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+FiveStar Gourmet Foods,"Rancho Cucamonga, California",US,2020,20.0,USD,23.04,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Florida Can Manufacturing,"Lake Alfred, Florida",US,2021,120.0,USD,132.03,,27871,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Florida Can Manufacturing,"Lake Alfred, Florida",US,2022,,,,,92903,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Florida Caribbean Distillers,"Winter Haven, Florida",US,2021,,,,,27871,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Flowers Foods,"Lynchburg, Virginia",US,2020,25.0,USD,28.8,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Foote Cattle Co. Beef Plant,"TBD, Kansas",US,2023,25.0,USD,24.46,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Foremost Farms,"Greenville, Michigan",US,2021,,,,,5388,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+FPL Foods,"Thomasville, Georgia",US,2021,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Freedom Foods,"Randolph, Vermont",US,2020,,,,,1486,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Fresh Bourbon Distilling Company,"Lexington, Kentucky",US,2020,,,,,3159,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Freshpet,"Bethlehem, Pennsylvania",US,2020,100.0,USD,115.19,,13006,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Freshpet,"Ennis, Texas",US,2022,,,,,37161,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Frick's Quality Meats,"Washington, Missouri",US,2022,7.0,USD,7.13,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Frito-Lay,"Bridgeton, Missouri",US,2020,7.0,USD,8.06,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Frito-Lay,"Bridgeton, Missouri",US,2020,8.0,USD,9.22,,3716,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Frito-Lay,"Cucamonga, California",US,2020,1.0,USD,1.15,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Frito-Lay,"Dallas, Texas",US,2020,29.0,USD,33.41,,9012,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Frito-Lay,"Dayton, Ohio",US,2020,1.0,USD,1.15,,1579,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Frito-Lay,"Frankfort, Indiana",US,2020,43.0,USD,49.53,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Frito-Lay,"Frankfort, Indiana",US,2020,32.0,USD,36.86,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Frito-Lay,"Irving, Texas",US,2020,23.0,USD,26.49,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Frito-Lay,"Osceola Cty, Florida",US,2021,130.0,USD,143.03,,26570,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Frito-Lay,"Perry, Georgia",US,2023,200.0,USD,195.69,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Frito-Lay,"Perry, Georgia",US,2021,27.0,USD,29.71,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Frito-Lay,"Perry, Georgia",US,2020,47.0,USD,54.14,,1858,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Frito-Lay,"Pulaski, Tennessee",US,2022,100.0,USD,101.87,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Frito-Lay,"Rosenberg, Texas",US,2020,138.0,USD,158.97,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Frito-Lay,"Topeka, Kansas",US,2020,23.0,USD,26.49,,9941,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Frito-Lay,"Topeka, Kansas",US,2020,23.0,USD,26.49,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Fuji Vegetable Oil Inc.,"Avondale (New Orleans), Louisiana",US,2020,70.0,USD,80.63,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+E. & J. Gallo Winery,"Modesto, California",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+EarthFresh,"College Park, Georgia",US,2019,22.0,USD,25.65,,13006,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Empire Bakery Commissary,"Rocky Mount, Virginia",US,2020,,,,,3995,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+F&S Produce Co Inc,"Vineland, New Jersey",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+"fairlife, LLC","Goodyear, Arizona",US,2019,,,,,27871,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+"Family Brands, LLC","Lenoi City, Tennessee",US,2020,,,,,6039,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Farmer Brothers,"Northlake, Texas",US,2019,3.0,USD,3.5,,12542,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Farmer's Select,"El Paso, Texas",US,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+FGF Brands,"San Antonio, Texas",US,2019,129.0,USD,150.43,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Florida Carribean Distillers,"Winter Haven, Florida",US,2021,,,,,27871,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Flow Alkaline Spring Water,"Verona, Virginia",US,2019,16.0,USD,18.66,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Flower One,"Las Vegas, Nevada",US,2019,85.0,USD,99.12,,41806,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+FONA International,"Geneva, Illinois",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Foremost Farms,"Greenville, Michigan",US,2021,,,,,5388,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Foster Farms,"Livingston, California",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Four Roses,"Lawrenceburg, Kentucky",US,2019,55.0,USD,64.14,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Freshly,"Savage, Maryland",US,2019,,,,,15886,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Freshpet,"Bethlehem, Pennsylvania",US,2020,100.0,USD,115.19,,13006,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Frito-Lay,"Bridgeton, Missouri",US,2020,7.0,USD,8.06,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Frito-Lay,"Cucamonga, California",US,2020,1.0,USD,1.15,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Frito-Lay,"Fayetteville, Tennessee",US,2019,4.0,USD,4.66,,2601,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Frito-Lay,"Frankfort, Indiana",US,2020,43.0,USD,49.53,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Frito-Lay,"Frankfort, Indiana",US,2020,32.0,USD,36.86,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Frito-Lay,"Irving, Texas",US,2020,23.0,USD,26.49,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Frito-Lay,"Osceola Cty, Florida",US,2021,130.0,USD,143.03,,26570,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Frito-Lay,"Perry, Georgia",US,2021,27.0,USD,29.71,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Frito-Lay,"Topeka, Kansas",US,2020,23.0,USD,26.49,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Fuji Vegetable Oil Inc.,"Avondale (New Orleans), Louisiana",US,2020,70.0,USD,80.63,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+G&C Food Distributors & Brokers,"Syracuse, New York",US,2020,18.0,USD,20.73,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Galaxy Desserts,"Richmond, California",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Gamesa,"Monterrey, MX",US,2019,,,,,465,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Gathered Foods,"Heath, Ohio",US,2019,,,,,3995,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Gem State Dairy Products,"Twin Falls, Idaho",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+GenCanna,"Mayfield, Kentucky",US,2019,40.0,USD,46.65,,9290,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+General Mills,"Belvidere, Illinois",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+General Mills,"Hannibal, Missouri",US,2019,65.0,USD,75.8,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+General Mills,"Superior, Wisconsin",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+General Mills,"Wellston, Ohio",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+General Mills,"Cedar Rapids, Iowa",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+General Mills,"Covington, Georgia",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+General Mills,"Joplin, Missouri",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+General Mills/Blue Buffalo,"Joplin, Missouri",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+General Mills/Blue Buffalo,"Joplin, Missouri",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+General Mills/Blue Buffalo,"McDonough, Georgia",US,2019,9.0,USD,10.5,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+General Mills/Blue Buffalo,"Richmond, Indiana",US,2019,200.0,USD,233.23,,37161,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Giant,"Jessup, Maryland",US,2020,15.0,USD,17.28,,8826,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Glanbia,"Gooding, Idaho",US,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Glanbia,"St. Johns, Michigan",US,2019,555.0,USD,647.21,,34839,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Gold Coast,"Pompano Beach, Florida",US,2019,,,,,23226,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Golfo di Napoli Dairy,"Warren, Indiana",US,2019,10.0,USD,11.66,,279,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Good Catch Foods,"Columbus, Ohio",US,2020,,,,,3716,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Good To-Go,"Kittery, Maine",US,2019,,,,,93,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Goodwood Brewing Company,"Louisville, Kentucky",US,2019,1.0,USD,1.17,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Gordon Food Services,"Westfield, Indiana",US,2020,,,,,46452,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Granny's Poultry,"Blumenort, Manitoba",CA,2019,37.0,USD,43.15,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Great Lakes Cheese,"Fillmore, Utah",US,2019,2.0,USD,2.33,,4645,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Great Lakes Cheese,"Fillmore, Utah",US,2020,3.0,USD,3.46,,11148,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Great Lakes Cheese,"Hiram, Ohio",US,2020,90.0,USD,103.67,,29729,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Great Lakes Cheese,"Wausau, Wisconsin",US,2019,62.0,USD,72.3,,16723,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Great Lakes Cheese,"Wausau, Wisconsin",US,2021,13.0,USD,14.3,,1858,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Great Lakes Cheese,"Troy, Ohio",US,2019,,,,,27871,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Green Life Farms,"Boynton Beach, Florida",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Greenleaf Foods,"Shelbyville, Indiana",US,2020,310.0,USD,357.1,,21368,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Guggisberg Cheese,"Millersburg, Ohio",US,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Guittard,"Fairfield, California",US,2020,,,,,1115,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Guttenplan's,"Middletown, New Jersey",US,2019,9.0,USD,10.5,,1672,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Hampton Farms,"Franklin, Virginia",US,2018,6.0,USD,7.12,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Hampton Meat Processing,"Hopkinsville, Kentucky",US,2019,1.0,USD,1.17,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Harbor Distributing,"Santa Fe Springs, California",US,2019,,,,,33073,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Haribo,"Pleasant Praire, Wisconsin",US,2019,,,,,15236,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Hearthside Food Solutions,"Seelyville, Indiana",US,2019,,,,,17373,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Heartland Catfish Co.,"Itta Bena, Mississippi",US,2020,,,,,1115,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Heartland Catfish Co.,"Itta Bena, Mississippi",US,2019,,,,,1115,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Heartland Food Products Group,"Indianapolis, Indiana",US,2019,32.0,USD,37.32,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Heaven Hill Distilleries,"Bardstown, Kentucky",US,2019,18.0,USD,20.99,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Heineken,"Meoqui, MX",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Hershey (The) Company,"Stuart's Draft, Virginia",US,2019,104.0,USD,121.28,,10219,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+High Wire Distilling Company,"Charleston, South Carolina",US,2019,3.0,USD,3.5,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Hill's Pet Nutrition,"Tyopeka, Kansas",US,2019,20.0,USD,23.32,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Holic Foods,"Middletown, Indiana",US,2020,2.0,USD,2.3,,2787,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Holistic Health Extension,"Hauppauge, New York",US,2019,8.0,USD,9.33,,5110,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Hollandia Dairy,"San Marcos, California",US,2021,,,,,5203,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Homestead Creamery,"Burnt Chimney, Virginia",US,2019,,,,,2044,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Hormel Foods,"Austin, Minnesota",US,2019,,,,,9290,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Hormel Foods,"Omaha, Nebraska",US,2019,140.0,USD,163.26,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Horse Soldier Bourbon,"Somerset, Kentucky",US,2019,26.0,USD,30.32,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+House Foods America,"Garden Grove, California",US,2019,,,,,3437,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+HP Hood Dairy,"Arkport, New York",US,2019,2.0,USD,2.33,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Hubig's Pies,"New Orleaans, Louisiana",US,2019,1.0,USD,1.17,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Hunt Advantage Group,"Paris, Kentucky",US,2019,,,,,5110,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Idaho Milk Products,"Jerome, Idaho",US,2019,30.0,USD,34.98,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Impossible Foods,"Oakland, California",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+In-N-Out,"Colorado Springs, Colorado",US,2020,47.0,USD,54.14,,9290,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+InterChange Cold Storage,"Mt. Crawford, Virginia",US,2019,,,,,10963,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+International Farmaceutical Extracts,"Danville, Kentucky",US,2019,6.0,USD,7.0,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+International Farmaceutical Extracts,"Danville, Kentucky",US,2019,6.0,USD,7.0,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Interstate Warehousing,"Anderson, Indiana",US,2019,40.0,USD,46.65,,23226,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Interstate Warehousing,"Murfreesboro, Tennessee",US,2019,18.0,USD,20.99,,10684,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Iowa Food Group,"Cherokee, Iowa",US,2019,,,,,23226,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Italgrani USA,"St. Louis, Missouri",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+J.M. Smucker Co.,"Lexington, Kentucky",US,2019,30.0,USD,34.98,,4924,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+J.M. Smucker Co.,"Longmont, Colorado",US,2019,215.0,USD,250.72,,40134,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+J.M. Smucker Co.,"Longmont, Colorado",US,2021,80.0,USD,88.02,,21275,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+J.M. Smucker Co.,"Memphis, Tennessee",US,2019,7.0,USD,8.16,,1579,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+J.M. Smucker Co.,"Oxnard, California",US,2019,2.0,USD,2.33,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+J.R. Simplot,"Portage la Prairie, Manitoba",CA,2019,460.0,USD,536.42,,26013,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+JBS USA,"Grand Island, Nebraska",US,2019,95.0,USD,110.78,,9941,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+JBS USA,"Ottumwa, Iowa",US,2021,12.0,USD,13.2,,1115,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+JBS USA,"Ottumwa, Iowa",US,2019,20.0,USD,23.32,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+JBS USA,"Worthington, Minnesota",US,2020,,,,,4645,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Jet.com,"Bronx, New York",US,2019,20.0,USD,23.32,,17187,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Jetton Biochemistry,"Nampa, Idaho",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+John Soules Foods,"Tyler, Texas",US,2019,25.0,USD,29.15,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+JTM,"Harrison, Ohio",US,2020,8.0,USD,9.22,,1579,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+JUST Inc.,"Appleton, Minnesota",US,2019,,,,,2787,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+KanPack,"Arkansas City, Kansas",US,2019,,,,,18859,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Kan-Pak,"Penn Yan, New York",US,2019,21.0,USD,24.49,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Kansa Dairy Ingredients,"Hugoton, Kansas",US,2021,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+KEG 1,"Temple, Texas",US,2019,11.0,USD,12.83,,10034,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Kellogg's,"San Jose, California",US,2019,1.0,USD,1.17,,465,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Kellogg's,"San Jose, California",US,2021,20.0,USD,22.0,,929,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Kentucky BioScience International,"Bowling Green, Kentucky",US,2019,23.0,USD,26.82,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Kentucky Bourbon Distillers,"Bardstown, Kentucky",US,2019,2.0,USD,2.33,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Kerry,"Rome, Georgia",US,2021,115.0,USD,126.53,,31030,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Keurig Dr. Pepper,"Allentown, Pennsylvania",US,2020,220.0,USD,253.42,,75344,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Keurig Dr. Pepper,"Moore, South Carolina",US,2021,,,,,65775,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Kingfish Zeeland,"Jonesport, Maine",US,2019,110.0,USD,128.27,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Klement's Sausage Company,"Milwaukee, Wisconsin",US,2019,8.0,USD,9.33,,5110,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Koch Foods,"Fairfield, Ohio",US,2019,15.0,USD,17.49,,4181,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Kontos Foods,"Patterson, New Jersey",US,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Kraft Heinz,"Garland, Texas",US,2019,17.0,USD,19.82,,3716,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Kroger,"Dallas, Texas",US,2022,,,,,32516,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Kroger,"Florence, Kentucky",US,2019,17.0,USD,19.82,,62617,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Kroger,"Forest Park, Georgia",US,2019,121.0,USD,141.1,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Kroger,"Groveland, Florida",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Kroger,"Keosha, Wisconsin",US,2019,22.0,USD,25.65,,5574,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Kroger,"Layton, Utah",US,2019,5.0,USD,5.83,,929,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Kroger,"Monroe, Ohio",US,2019,55.0,USD,64.14,,31123,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+La Colombe,"Norton Shores, Michigan",US,2019,,,,,2323,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Lakeside Foods,"Manitowoc, Indiana",US,2019,40.0,USD,46.65,,9290,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Lane Southern Orchards,"Fort Valley, Georgia",US,2019,4.0,USD,4.66,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Leprino Foods,"Fort Morgan, Colorado",US,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Leprino Foods,"Greeley, Colorado",US,2020,,,,,52304,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Leprino Foods,"Roswell, New Mexico",US,2021,,,,,1394,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Leprino Foods,"Tracy, California",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+LifeLine Foods,"St. Joseph, Missouri",US,2019,12.0,USD,13.99,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Lindt & Spruengli,"Stratham, New Hampshire",US,2022,200.0,USD,203.74,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Lineage Logistics,"Vernon, California",US,2019,49.0,USD,57.14,,18581,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Lionchase Holdings,"Texarkana, Texas",US,2019,20.0,USD,23.32,,18581,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Litehouse,"Danville, Virginia",US,2019,46.0,USD,53.64,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Little Leaf Farms,"Burnsvile, North Carolina",US,2019,86.0,USD,100.29,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Living Greens Farms,"Faribault, Minnesota",US,2019,2.0,USD,2.33,,650,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Log Still Distilling,"New Haven, Kentucky",US,2019,12.0,USD,13.99,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Lopez Foods,"Cherokee, Iowa",US,2020,,,,,27871,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Lotus Bakeries,"Mebane, North Carolina",US,2019,,,,,12077,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Magnolia Botanicals,"Ridgeville, CS",US,2019,3.2,USD,3.73,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Malt Products Corp.,"Dayton, Ohio",US,2019,15.0,USD,17.49,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Mane Inc.,"Lebanon, Ohio",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Mane Inc.,"Lebanon, Ohio",US,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Maple Leaf Foods,"London, Ontario",CA,2021,,,,,59458,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Maple Leaf Foods,"London, Ontario",CA,2021,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Maple Leaf Foods,"Shelbyville, Indiana",US,2023,310.0,USD,303.31,,21368,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Maplehurst Bakeries,"Lebanon, Tennessee",US,2019,53.0,USD,61.81,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Mark Anthony Brewing,"Memphis, Tennessee",US,2019,12.0,USD,13.99,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Marquez Brothers,"Hanford, California",US,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+MARS,"Hackettstown, New Jersey",US,2021,25.0,USD,27.51,,6503,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Martin Preferred Foods,"Dallas, Texas",US,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Maruchan Virginia,"Chesterfield, Virginia",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Mattingly Cold Storage,"Zanesville, Ohio",US,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+MB Roland Distillery,"Pembroke, Kentucky",US,2019,2.0,USD,2.33,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+McCain Foods,"Burley, Idaho",US,2019,200.0,USD,233.23,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+McCain Foods,"Caldwell, Idaho",US,2019,,,,,9290,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+McCain Foods,"Florenceville, NB",CA,2019,9.0,USD,10.5,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+McCain Foods,"Grand Falls, NB",CA,2021,61.0,USD,67.11,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+McCain Foods,"Othello, Washington",US,2019,300.0,USD,349.84,,15794,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+McCall Farms,"Effingham, South Carolina",US,2019,50.0,USD,58.31,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+MegaFit Meals,"Benton, Kentucky",US,2019,3.0,USD,3.5,,1486,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+MG Foods,"Melbourne, Florida",US,2019,2.0,USD,2.33,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Michael Foods,"Gaylord, Minnesota",US,2020,,,,,372,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Michael Foods,"Norwalk, Iowa",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Michael Foods,"Norwalk, Iowa",US,2019,,,,,13935,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Michael Foods,"Wakefield, Nebraska",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Michigan Milk Producers,"Constantine, Michigan",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Michter's,"Louisville, Kentucky",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+MolsonCoors,"Montréal, Ontario",CA,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Mondelez,"Hamilton, Ontario",CA,2019,35.0,USD,40.81,,2508,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Monin Americas,"Sparks, Nevada",US,2020,27.0,USD,31.1,,10684,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Monogram Food Solutions,"Martinsville, Virginia",US,2019,30.0,USD,34.98,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Montana Specialties Mills LLC,"Great Falls, Montana",US,2019,20.0,USD,23.32,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+More Than a Bakery,"Versailles, Kentucky",US,2019,20.0,USD,23.32,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+More Than Gourmet,"Akron, Ohio",US,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Mother Murphy's,"Greensboro, North Carolina",US,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Mountaire,"Siler City, North Carolina",US,2019,170.0,USD,198.24,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+MycoTechnology Inc.,"Aurora, Colorado",US,2019,,,,,5574,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+National Property Holdings/Domino's,"Katy, Texas",US,2020,,,,,5574,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+NC Food Innovation Lab,"Kannapolis, North Carolina",US,2019,7.0,USD,8.16,,1301,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Nestlé,"Anderson, Indiana",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Nestlé,"Bakersfield, California",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Nestlé,"Danville, Virginia",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Nestlé,"Gaffney, South Carolina",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Nestlé,"Little Chute, Wisconsin",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Nestlé,"Modesto, California",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Nestlé Purina,"Allentown, Pennsylvania",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Nestlé Purina,"Flagstaff, Arizona",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Nestlé Purina,"Hartwell, Georgia",US,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Nestlé Waters North America,"Cabazon, California",US,2019,2.0,USD,2.33,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Nestlé Waters North America,"High Springs, Florida",US,2020,12.0,USD,13.82,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Nestlé Waters North America,"Houston, Texas",US,2019,1.0,USD,1.17,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+NewCold,"Burley, Idaho",US,2019,90.0,USD,104.95,,16723,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Newly Weds Foods,"Chicago, Illinois",US,2020,50.0,USD,57.6,,23226,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Newly Weds Foods,"Chicago, Illinois",US,2020,10.0,USD,11.52,,3716,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Niagara Bottling,"Jeffersonville, Indiana",US,2019,56.0,USD,65.3,,43572,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Niagara Bottling,"Kansas City, Missouri",US,2019,68.0,USD,79.3,,39019,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Niagara Bottling,"Rialto, California",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Niagara Bottling,"Seguin, Texas",US,2019,21.0,USD,24.49,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Niagara Bottling,"Temple, Texas",US,2019,90.0,USD,104.95,,41806,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+NomNomNow,"Nashville, Tennessee",US,2019,2.0,USD,2.33,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Nongshim,"Corona, California",US,2021,200.0,USD,220.05,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Nordic Aquafarms,"Eureka, California",US,2019,400.0,USD,466.45,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Northern Wind,"New Bedford, Massachusetts",US,2019,5.0,USD,5.83,,2323,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Nutraceutical Powder Blending Co.,"Aurora, Illinois",US,2019,4.0,USD,4.66,,1115,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Oatly,"Ogden, Utah",US,2019,40.0,USD,46.65,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Octopi Brewing,"Waunakee, Wisconsin",US,2019,11.0,USD,12.83,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+OFD Foods,"Albany, New York",US,2019,8.0,USD,9.33,,1022,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+OFD Foods,"Henrietta, New York",US,2019,25.0,USD,29.15,,4645,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Old Trapper Smoked Products,"Forest Grove, Oregon",US,2019,,,,,7432,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Osceola Foods,"Osceola, Iowa",US,2020,,,,,2230,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Peer Foods,"Edinburgh, Indiana",US,2020,14.0,USD,16.13,,5760,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Perdue Farms,"Dillon, South Carolina",US,2019,25.0,USD,29.15,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Perdue Farms,"Perry, Georgia",US,2019,,,,,7432,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Performance Food Group,"Gilroy, California",US,2019,,,,,17652,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Performance Food Group,"Portland, Oregon",US,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Performance Food Group,"Twinsburg, Ohio",US,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Performance Food Group/Vistar,"Mt. Olive, New Jersey",US,2019,,,,,19974,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Performance Food Group/Vistar,"Riverside, Missouri",US,2019,,,,,3530,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Performance Pet,"Mitchell, South Dakota",US,2019,,,,,13935,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Petsource by Scoular,"Seward, Nebraska",US,2020,57.0,USD,65.66,,9755,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Phillips Foods,"Baltimore, Maryland",US,2019,,,,,1394,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+PHM Brands,"Michigan City, Indiana",US,2019,6.0,USD,7.0,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Pinnacle Foods,"Denver, Colorado",US,2020,4.0,USD,4.61,,12542,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Pinnacle Foods,"Hagerstown, Maryland",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Plenty,"Compton, California",US,2021,,,,,8083,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Plumrose USA,"Moberly, Missouri",US,2021,39.0,USD,42.91,,11613,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Poultry Products Northeast,"Londonderry, New Hampshire",US,2020,20.0,USD,23.04,,10219,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Prairie View A&M U Meat Processing Lab,"Prairie View, Texas",US,2020,8.0,USD,9.22,,743,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Preferred Freezer Services,"Portsmouth, Virginia",US,2019,60.0,USD,69.97,,18581,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Premium Iowa Pork,"Luverne, Minnesota",US,2019,32.0,USD,37.32,,1208,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Prestage Foods of Iowa,"Eagle Grove, Iowa",US,2019,,,,,58064,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Pretzels Inc.,"Plymouth, Indiana",US,2020,,,,,11148,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Proliant,"St Johns, Michigan",US,2021,,,,,6596,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+PURIS,"Harrold, South Dakota",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Purnell Old Folks Sausage,"Simpsonville, Kentucky",US,2019,2.0,USD,2.33,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Quality Sausage QOZ,"Dallas, Texas",US,2021,,,,,10312,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+QuikTrip,"Belton, Missouri",US,2019,12.0,USD,13.99,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+QuikTrip,"Midlothian, Texas",US,2019,2.0,USD,2.33,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+QuikTrip,"Midlothian, Texas",US,2019,23.0,USD,26.82,,4552,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+QuikTrip,"Pendergrass, Georgia",US,2020,6.0,USD,6.91,,5203,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+QuikTrip,"Tolleson, Arizona",US,2020,4.0,USD,4.61,,1208,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Rabbit Hole Spirits,"Campbellsburg, Kentucky",US,2019,50.0,USD,58.31,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Ramar Foods,"Kapolei, Hawaii",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Readington Farms,"Easton, Pennsylvania",US,2019,250.0,USD,291.53,,32516,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Ready Seafood,"Saco, Maine",US,2019,15.0,USD,17.49,,4645,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Red Bull,"Glendale, Arizona",US,2019,700.0,USD,816.3,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Refresco,"Fort Gibson, Oklahoma",US,2019,12.0,USD,13.99,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Reinhart Foodservice,"Bowling Green, Kentucky",US,2019,,,,,7804,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Reser's Fine Foods,"Halifax, North Carolina",US,2019,3.0,USD,3.5,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Reser's Fine Foods,"Topeka, Kansas",US,2019,20.0,USD,23.32,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Resonate Foods,"Lyon, Kentucky",US,2019,2.0,USD,2.33,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Reyes Holdings/Great Lakes Coca-Cola Bottling,"Eagan, Minnesota",US,2019,,,,,7432,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+RiceWrap Foods,"Butner, North Carolina",US,2019,10.0,USD,11.66,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Richard's Cajun Foods,"Church Point, Louisiana",US,2019,3.0,USD,3.5,,2601,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Riviana Foods,"Memphis, Tennessee",US,2019,22.0,USD,25.65,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Riviana Foods,"Memphis, Tennessee",US,2019,27.0,USD,31.49,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Rosina Food Products,"West Seneca, New York",US,2019,58.0,USD,67.64,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Royal Canin/subsidiary Mars Petcare,"North Sioux City, South Dakota",US,2019,100.0,USD,116.61,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Rudolph Foods,"Lima, Ohio",US,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Ruiz Food Products Inc.,"Florence, South Carolina",US,2019,,,,,15794,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Sabra,"Colonial Heights, Virginia",US,2019,10.0,USD,11.66,,3530,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Sabra Dipping Co.,"South Chesterfield, Virginia",US,2019,9.0,USD,10.5,,3716,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Sabra Dipping Co.,"South Chesterfield, Virginia",US,2020,2.0,USD,2.3,,929,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Salt Marsh Brewing,"Port Royal, South Carolina",US,2019,5.0,USD,5.83,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Samuel Adams,"Cincinnati, Ohio",US,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Samuel Adams,"Cincinnati, Ohio",US,2021,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Sandstone Springs,"Niagara Falls, New York",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Saputo Dairy Foods USA,"Carrollton, Kentucky",US,2019,2.0,USD,2.33,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Saratoga Food Specialties,"Bolingbrook, Illinois",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Saratoga Food Specialties,"Bolingbrook, Illinois",US,2019,3.0,USD,3.5,,186,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Saturn Petcare,"Terre Haute, Indiana",US,2020,38.0,USD,43.77,,32516,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Savoie's Foods,"St. Landry, Louisiana",US,2019,13.0,USD,15.16,,3809,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Sazerac,"New Albany, Indiana",US,2021,66.0,USD,72.62,,42735,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Scannell Properties/Northeast Coca-Cola,"S. Windsor, Connecticut",US,2019,,,,,18581,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Schreiber Foods,"Logan, Utah",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Seaboard Foods,"Guymon, Oklahoma",US,2020,,,,,17652,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Sedes Soy Crush,"Caruthersville, Missouri",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Simmons Foods,"Siloam Springs, Arkansas",US,2019,300.0,USD,349.84,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Simmons Pet Food,"Emporia, Kansas",US,2019,60.0,USD,69.97,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Simmons Prepared Foods,"Decatur, Arkansas",US,2019,300.0,USD,349.84,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Simmons Prepared Foods,"Decatur, Arkansas",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Simplot,"Caldwell, Idaho",US,2020,,,,,16723,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Simplot,"Grand Forks, North Dakota",US,2020,,,,,12542,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Simplot,"Portage la Prairie, Manitoba",CA,2019,345.0,USD,402.32,,26013,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Smart Baking Company,"Debary, Florida",US,2019,1.0,USD,1.17,,4645,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Smithfield - Farmer John,"Vernon, California",US,2019,,,,,836,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Smithfield Foods,"Clinton, North Carolina",US,2019,15.0,USD,17.49,,1579,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Smithfield Foods,"Principio, Maryland",US,2019,,,,,39019,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Smithfield Foods,"Sioux Falls, South Dakota",US,2019,45.0,USD,52.48,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Smithfield Foods,"Tar Heel, North Carolina",US,2019,100.0,USD,116.61,,46452,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+SmithFoods,"Richmond, Indiana",US,2019,9.0,USD,10.5,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Smith's Food & Drug Stores,"Henderson, Nevada",US,2019,14.0,USD,16.33,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Smucker's Foods of Canada Corp.,"Sherbrooke, Quebec",CA,2019,12.0,USD,13.99,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Snackwerks,"Battle Creek, Michigan",US,2019,4.0,USD,4.66,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+SoChatti,"Indianapolis, Indiana",US,2019,,,,,1208,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+SOPACKO,"Mullins, South Carolina",US,2019,13.0,USD,15.16,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Southeastern Mills,"Rome, Georgia",US,2019,6.0,USD,7.0,,13006,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Southern Coffee Services,"Lexington, Mississippi",US,2019,2.0,USD,2.33,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Southern Visions,"Bay Minette, Alabama",US,2019,24.0,USD,27.99,,11613,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Southwest Cheese,"Clovis, New Mexico",US,2019,,,,,10126,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+SpartanNash,"Fargo, North Dakota",US,2019,10.0,USD,11.66,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Specialty Cheese Co.,"Reeseville, Wisconsin",US,2019,2.0,USD,2.33,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Specialty Foods Group (aka Field Packing Div.),"Owensboro, Kentucky",US,2019,8.0,USD,9.33,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+SSI Foods,"Amarillo, Texas",US,2019,42.0,USD,48.98,,6968,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Stampede Meat Inc.,"Sunland Park, New Mexico",US,2019,36.0,USD,41.98,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Star Kay White,"Congers, New York",US,2020,31.0,USD,35.71,,11148,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Starbucks,"Augusta, Georgia",US,2019,121.0,USD,141.1,,13935,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Starbucks,"Chicago, Illinois",US,2019,9.0,USD,10.5,,4181,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Stella & Chewy's,"Oak Creek, Wisconsin",US,2019,30.0,USD,34.98,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Steuben Foods,"Elma, New York",US,2019,17.0,USD,19.82,,8547,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Strauss Brands,"Franklin, Wisconsin",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Stuffed Puffs,"Beethlehem, Pennsylvania",US,2019,,,,,13935,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+SugarCreek - Brandworthy Food Solutions,"Fairfield, Ohio",US,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+SunOpta,"Allentown, Pennsylvania",US,2019,22.0,USD,25.65,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Sunrise Soya,"Delta, British Columbia",CA,2019,,,,,7897,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Superior Catfish Products,"Macon, Mississippi",US,2021,,,,,3252,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Supreme Rice,"Crowley, Louisiana",US,2019,20.0,USD,23.32,,2323,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+SVZ-USA,"Othello, Washington",US,2019,5.0,USD,5.83,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Swire Coca-Cola,"Glendale, Arizona",US,2019,160.0,USD,186.58,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Symrise,"Atlanta, Georgia",US,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Sysco,"Jacksonville, Florida",US,2019,,,,,10684,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Sysco,"Raleigh, North Carolina",US,2019,,,,,10219,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+T. Marzetti,"Altoona, Iowa",US,2021,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Table Talk Pies,"Worcester, Massachusetts",US,2019,,,,,3159,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Tasty Blend Foods,"Putnam, West Virginia",US,2019,3.0,USD,3.5,,2044,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Tasty Brands,"Owensboro, Kentucky",US,2020,,,,,2323,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Tate's Bake Shop,"East Moriches, New York",US,2019,2.0,USD,2.33,,1858,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Taylor Farms,"Ciudad Morelos, MX",US,2019,65.0,USD,75.8,,26942,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Taylor Farms,"Fort Mitchell, Kentucky",US,2020,9.0,USD,10.37,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Taylor Farms,"Smyrna, Tennessee",US,2019,8.0,USD,9.33,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Taylor Farms,"Smyrna, Tennessee",US,2019,5.0,USD,5.83,,4645,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Taylor Farms,"Swedesboro, New Jersey",US,2020,4.5,USD,5.18,,1858,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+TerrePURE Kentucky Distillers,"Owensboro, Kentucky",US,2019,6.0,USD,7.0,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+That's How We Roll,"Springettsbury, Pennsylvania",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+The Bel Group,"Sorel-Tracy, Quebec",CA,2020,66.0,USD,76.03,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+The Muffin Mam,"Watts Mills, South Carolina",US,2019,19.0,USD,22.16,,9290,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+The Original Cakerie,"London, Ontario",CA,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Tippin's,"Kansas City, Kansas",US,2019,7.0,USD,8.16,,929,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Torani,"San Leandro, California",US,2020,12.0,USD,13.82,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Treehouse Foods,"Dallas, Texas",US,2019,11.0,USD,12.83,,12170,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Treehouse Private Brands,"Hanover, Pennsylvania",US,2019,12.0,USD,13.99,,11613,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Treehouse Private Brands,"Hanover, Pennsylvania",US,2019,2.0,USD,2.33,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Treehouse Private Brands,"Lancaster, Pennsylvania",US,2019,12.0,USD,13.99,,10219,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Trisco Foods,"Colorado Springs, Colorado",US,2019,,,,,3716,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Tropicana,"Bradenton, Florida",US,2019,3.0,USD,3.5,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Tropicana,"Bradenton, Florida",US,2019,23.0,USD,26.82,,743,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Tropicana,"Fort Pierce, Florida",US,2019,5.0,USD,5.83,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Tuffy's Pet Foods,"Delano, Minnesota",US,2020,,,,,16072,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Turkey Hill,"Conestoga, Pennsylvania",US,2019,2.0,USD,2.33,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Two Rivers Fishery,"Ballard Cty, Kentucky",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Two Roads Brewing,"Danbury, Connecticut",US,2019,15.0,USD,17.49,,2323,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Tyson Foods,"Camilla, Georgia",US,2019,34.0,USD,39.65,,3252,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Tyson Foods,"Cincinnati, Ohio",US,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Tyson Foods,"Downers Grove, Illinois",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Tyson Foods,"Eagle Mountain City, Utah",US,2019,300.0,USD,349.84,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Tyson Foods,"Enid, Oklahoma",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Tyson Foods,"Haltom City, Texas",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Tyson Foods,"Humboldt, Tennessee",US,2019,,,,,36511,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Tyson Foods,"Hutchinson, Kansas",US,2020,,,,,929,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Tyson Foods,"Hutchinson, Kansas",US,2019,,,,,650,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Tyson Foods,"Joslin, Illinois",US,2021,,,,,7990,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Tyson Foods,"Russellville, Alaska",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Tyson Foods,"Sandford, North Carolina",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Tyson Foods,"Sherman, Texas",US,2019,30.0,USD,34.98,,7432,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Tyson Foods,"St. Joseph, Missouri",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Tyson Foods,"Tonganocie, Kansas",US,2019,320.0,USD,373.16,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Tyson Foods,"Union City, Tennessee",US,2019,84.0,USD,97.96,,2323,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Tyson Foods,"West Chester, Ohio",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Tyson Foods,"Zeeland, Michigan",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+U.S. Waffle Co.,"Liberty, South Carolina",US,2019,,,,,28800,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Ukiah Natural Foods Co-op,"Ukiah, California",US,2019,,,,,557,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+United Airlines,"Newark, New Jersey",US,2020,110.0,USD,126.71,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+United Dairy Farmers,"Cincinnati, Ohio",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+United Natural Foods,"Providence, Rhode Island",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+US Cold Storage,"Turlock, California",US,2019,,,,,42457,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+US Foods,"Marrero, Louisiana",US,2020,,,,,12356,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Valley Queen,"Milbank, South Dakota",US,2019,50.0,USD,58.31,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Victor Hoppenstein's Brewlab,"Charleston, South Carolina",US,2019,1.0,USD,1.17,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Virginia Murachan Inc.,"North Chesterfield, Virginia",US,2019,,,,,5481,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+VPX (aka Bang Energy),"Pembrook Pines, Florida",US,2019,35.0,USD,40.81,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+VPX (aka Bang Energy),"Pembrook Pines, Florida",US,2020,40.0,USD,46.08,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+VPX (aka Bang Energy),"Phoenix, Arizona",US,2020,39.0,USD,44.93,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+VPX (aka Bang Energy),"Phoenix, Arizona",US,2019,200.0,USD,233.23,,36882,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Wayne Farms,"Enterprise, Alabama",US,2019,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Weber Flavors,"Wheeling, Illinois",US,2020,5.0,USD,5.76,,1208,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+WholeStone Farms,"Fremont, Nebraska",US,2020,42.0,USD,48.38,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+WholeStone Farms,"Fremont, Nebraska",US,2022,13.0,USD,13.24,,929,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+WholeStone Farms,"Fremont, Nebraska",US,2020,7.0,USD,8.06,,3345,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+WholeStone Farms,"Fremont, Nebraska",US,2022,22.0,USD,22.41,,1301,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+WholeStone Farms,"Fremont, Nebraska",US,2019,10.0,USD,11.66,,929,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Wild Turkey Bourbon,"Lawerenceburg, Kentucky",US,2019,2.0,USD,2.33,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Wildbrine Plant-based Creamery,"Santa Rposa, California",US,2019,4.0,USD,4.66,,1858,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
+Win Chill Cold Storage,"Sioux Falls, South Dakota",US,2019,,,,,11706,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+Wolfgang Confectioners,"Loganville, Pennsylvania",US,2019,,,,,7246,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.64
+WV Department of Agriculture,"Ripley, West Virginia",US,2020,,,,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.565
+Zucarmex,"San Diego, California",US,2020,16.0,USD,18.43,,,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.715
+Zweigle's,"Rochester, New York",US,2019,19.0,USD,22.16,,2694,https://www.foodengineeringmag.com/food-plant-construction-survey-list-2021,0.79
