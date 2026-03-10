@@ -4,6 +4,8 @@ from __future__ import annotations
 
 import re
 
+from src.models.extraction_result import ExtractionResult
+
 # Patterns: e.g. "€ 1,2 miljard", "EUR 500 million", "500 mln euro", "$2B"
 _PATTERNS = [
     # Dutch: € 1,2 miljard / 500 miljoen euro
@@ -24,11 +26,8 @@ _EN_MULTIPLIERS = {
 }
 
 
-def extract(text: str) -> tuple[float | None, float]:
-    """Return (value_in_eur_millions, certainty).
-
-    certainty is 1.0 for exact regex match, 0.0 if not found.
-    """
+def extract(text: str) -> ExtractionResult:
+    """Return an ExtractionResult with value in EUR millions."""
     for pattern, lang in _PATTERNS:
         match = re.search(pattern, text, re.IGNORECASE)
         if match:
@@ -36,9 +35,15 @@ def extract(text: str) -> tuple[float | None, float]:
             value = _parse_number(raw)
             multipliers = _NL_MULTIPLIERS if lang == "nl" else _EN_MULTIPLIERS
             multiplier = multipliers.get(unit, 1)
-            return round(value * multiplier, 2), 1.0
+            method = f"regex_{lang}_{unit}"
+            return ExtractionResult(
+                value=round(value * multiplier, 2),
+                raw_match=match.group(0),
+                certainty=1.0,
+                method=method,
+            )
 
-    return None, 0.0
+    return ExtractionResult(value=None, raw_match=None, certainty=0.0, method="not_found")
 
 
 def _parse_number(raw: str) -> float:

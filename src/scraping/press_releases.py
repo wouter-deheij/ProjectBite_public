@@ -67,11 +67,11 @@ def _parse_article(url: str, source_quality: float) -> InvestmentRecord | None:
     soup = BeautifulSoup(response.text, "html.parser")
     text = soup.get_text(separator=" ", strip=True)
 
-    capex_value, capex_certainty = capex_ext.extract(text)
-    cap_value, cap_certainty = capacity_ext.extract(text)
-    loc_value, country, loc_certainty = location_ext.extract(text)
+    capex_res = capex_ext.extract(text)
+    cap_res = capacity_ext.extract(text)
+    loc_res = location_ext.extract(text)
 
-    if not loc_value:
+    if not loc_res.value:
         return None
 
     year = _extract_year(text)
@@ -82,15 +82,15 @@ def _parse_article(url: str, source_quality: float) -> InvestmentRecord | None:
 
     record = InvestmentRecord(
         company=company,
-        location=loc_value,
-        country=country,
+        location=loc_res.value,
+        country=loc_res.country,
         year=year,
         source_url=url,
         confidence_score=0.0,  # filled below
-        capex=capex_value,
-        capacity=cap_value,
+        capex=capex_res.value,
+        capacity=cap_res.value,
     )
-    extraction_certainty = (capex_certainty + cap_certainty + loc_certainty) / 3
+    extraction_certainty = (capex_res.certainty + cap_res.certainty + loc_res.certainty) / 3
     record.confidence_score = confidence.score(record, source_quality, extraction_certainty)
     return record
 

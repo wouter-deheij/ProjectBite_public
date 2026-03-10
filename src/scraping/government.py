@@ -47,11 +47,11 @@ def _scrape_register_page(url: str, source_quality: float) -> list[InvestmentRec
             continue
 
         text = " ".join(cells)
-        capex_value, capex_certainty = capex_ext.extract(text)
-        cap_value, cap_certainty = capacity_ext.extract(text)
-        loc_value, country, loc_certainty = location_ext.extract(text)
+        capex_res = capex_ext.extract(text)
+        cap_res = capacity_ext.extract(text)
+        loc_res = location_ext.extract(text)
 
-        if not loc_value:
+        if not loc_res.value:
             continue
 
         import re
@@ -61,15 +61,15 @@ def _scrape_register_page(url: str, source_quality: float) -> list[InvestmentRec
 
         record = InvestmentRecord(
             company=cells[0],
-            location=loc_value,
-            country=country,
+            location=loc_res.value,
+            country=loc_res.country,
             year=int(year_matches[0]),
             source_url=url,
             confidence_score=0.0,
-            capex=capex_value,
-            capacity=cap_value,
+            capex=capex_res.value,
+            capacity=cap_res.value,
         )
-        extraction_certainty = (capex_certainty + cap_certainty + loc_certainty) / 3
+        extraction_certainty = (capex_res.certainty + cap_res.certainty + loc_res.certainty) / 3
         record.confidence_score = confidence.score(record, source_quality, extraction_certainty)
         records.append(record)
 
